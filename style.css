@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(243, 243, 243);
+}
+
+.banner {
+    background: url(/Group\ 5.png) no-repeat center;
+    background-size: cover;
+    height: 70vh;
+    color: rgb(243, 243, 243);
+    text-shadow: 0px 0px 10px black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.486);
+    width: 100vw;
+    height: 5vh;
+    padding: 20px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    list-style: none;
+}
+
+/*-------*/
+
+.banner-title{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+/* banner ends here */
+
+.container1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 img{
+    width: 130px;
+}
+
+.btn1{
+    padding: 15px 25px;
+    background: #7a7f87;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.btn1:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+.btn1 span{
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.border1{
+    height: 2px;
+    width: 90vw;
+    margin: 0 auto;
+    border-color: none;
+    background: #7a7f87;
+}
+
+/* insta section ends here */
+
+.container2{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
+.red{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(175, 54, 54);
+}
+
+/* Ishido section ends here */
+
+.pics{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1, .img2{
+    width: 20vw;
+    height: 200px;
+}
+
+.pics-des{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.des-1{
+    margin-left: 30px;
+}
+
+.des-2{
+    margin-right: 30px;
+}
+
+h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pics-grey{
+    background: rgba(0, 0, 0, 0.048);
+    border-radius: 5px;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey1 {
+    padding: 40px 50px 10px 50px;
+}
+.grey2 {
+    padding: 10px 50px 40px 50px;;
+}
+
+/* pics ends here */
+
+footer{
+    background: #7a7f87;
+    color: rgb(243, 243, 243);
+    text-shadow: 0px 0px 10px black;
+    height: 70vh;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    height: 25vh;
+    margin: 100px auto;
+    padding: 40px 0;
+}
+
+footer nav ul{
+    list-style: none;
+}
+
+footer nav ul p{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.very-bottom{
+    height: 15vh;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.very-bottom ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.very-bottom img{
+    padding: 10px;
+}
+
